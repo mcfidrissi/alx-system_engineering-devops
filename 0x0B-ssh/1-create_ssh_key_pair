@@ -1,10 +1,6 @@
-#!/bin/bash
+#!/bin/env bash
 
-# Define the key file name
 
 # Generate the RSA key pair with 4096 bits and protect it with the passphrase 'betty'
-ssh-keygen -t rsa -b 4096 -f school -N "betty"
-
-# Output message
-echo "RSA key pair created with the private key named 'school'"
+ssh-keygen -f school -b 4096 -N betty
 
