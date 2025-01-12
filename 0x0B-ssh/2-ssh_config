@@ -1,6 +1,6 @@
 # SSH Config File
 #
-Host web-01
+Host 531245-web-01
 	Hostname 18.207.139.36
 	User ubuntu
 	PasswordAuthentication no
