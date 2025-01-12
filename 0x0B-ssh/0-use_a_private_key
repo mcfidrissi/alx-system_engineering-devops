@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+source ./custom.env
+
+# connecting to server using private key
+ssh -i ~/.ssh/school ubuntu@CUSTOM
